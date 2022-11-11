@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Oswald:wght@200;300;400;500&display=swap%27');
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+:root
+{
+      --primary:hsla(179, 48%, 44%, 0.675) ;
+      --secondary:hsla(179, 67%, 69%);
+}
+body
+{
+    background-size: cover;
+    color: rgb(9, 9, 9);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg,var(--primary) , var(--secondary) );
+  
+}
+h1  
+{
+    font-size: 60px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: black;
+}
+
+h3
+{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color: black;
+}
+p
+{
+    color: #6B6B6B;
+    font-family: "Lato";
+
+
+}
+i
+{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 5px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+span 
+{
+    color: black;
+    font-family: "Lato";
+}
+
+/*global*/
+
+.box
+{
+    margin:20px auto;
+    margin-top: 0px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+}
+.container
+{
+    padding: 10px 50px 10px 50px;
+}
+
+
+
+/*header footer*/
+header h1, header p ,footer p
+{
+    text-align: center;
+    color: aliceblue;
+}
+header
+{
+    position: relative;
+    padding: 20px;
+    height: 200px;
+}
+header h1 ,header p{
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+header::before
+{
+    content: "";
+    background: url(bag1.png) no-repeat center center / cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+
+
+/*about*/
+.about
+{
+    padding: 10px 0px 10px 0px ;
+    display: inline-block;
+
+    
+}
+.about img
+{
+    width: 200px;
+    height: 150px;
+   
+}
+.about-me p
+{
+    display: inline;
+    
+}
+.about-me img
+{
+    float: left;
+    display: inline;
+    padding-right: 10px;
+  
+}
+/*project*/
+.projects
+{
+    padding: 10px 0px 10px 0px  ;
+    display: inline-block;
+   
+}
+.project
+{
+    float: left;
+    padding-right: 23px;
+    display: inline;
+}
+.project img
+{
+    height: 200px;
+    width: 280px;
+
+}
+.projet 
+{
+    margin-top: 0px;
+    color: black;
+}
+/*edw*/
+.contenu
+{
+    padding: 10px 0px 10px 0px  ;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.place
+{
+    float: left;
+    display: inline;
+    width: 300px;
+}
+.icon
+{
+    color: black;
+
+}
+.bold
+{
+    margin-top: -15px;
+    color: black;
+
+
+}
+.Bol
+{
+    margin-top: 0px;
+    color: black;
+
+
+}
+
+/*contact*/
+
+#email
+{
+    display: block;
+    background-color:lightgray;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-family: "lato";
+    border-radius: 10px;
+
+}
+#subject
+{
+    display: block;
+    background-color:lightgray;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-family: "lato";
+    border-radius: 5px;
+
+}
+#message
+{
+    display: block;
+    background-color:lightgray;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: "lato";
+}
+#submit
+{
+    background-color: black;
+    color: white;
+    border-radius: 23px;
+    margin-bottom: 3px;
+    padding: 10px 15px 10px 15px;
+   
+}
+
